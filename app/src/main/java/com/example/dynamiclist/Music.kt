@@ -1,4 +1,3 @@
 package com.example.dynamiclist
 
-class Music {
-}
+data class Music (val name: String, val time: String)
