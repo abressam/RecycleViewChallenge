@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dynamic List</string>
+    <string name="name">Name</string>
+    <string name="time">Time</string>
 </resources>
