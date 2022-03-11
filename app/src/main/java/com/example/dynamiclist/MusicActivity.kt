@@ -17,9 +17,7 @@ class MusicActivity : AppCompatActivity() {
         val adapter = MusicAdapter()
 
         val viewModel = ViewModelProvider(this).get(PlaylistViewModel::class.java)
-        viewModel.playlistInfo.observe(this, { playlistInfo ->
-            adapter.updateList(playlistInfo)
-        })
+        viewModel.playlistInfo.observe(this) { playlistInfo -> adapter.updateList(playlistInfo) }
 
         val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
