@@ -6,6 +6,6 @@ data class Music (
     val name: String,
     val time: String,
     @DrawableRes
-    val image: Int?,
+    val image: Int,
     val description: String
     )
