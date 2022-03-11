@@ -3,6 +3,7 @@ package com.example.dynamiclist
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -35,6 +36,7 @@ class MusicViewHolder(
             view.apply {
                 findViewById<TextView>(R.id.music_name).text = song.name
                 findViewById<TextView>(R.id.music_time).text = song.time
+                findViewById<ImageView>(R.id.music_image).setImageResource(song.image)
             }
         }
     }
