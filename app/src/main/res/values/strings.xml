@@ -3,4 +3,41 @@
     <string name="name">Name</string>
     <string name="time">Time</string>
     <string name="music_description">Music album</string>
+
+    <string name="bad_habits">Bad Habits</string>
+    <string name="bad_habits_time">03:53</string>
+    <string name="bad_habits_description">Ed Sheeran, Bad Habits song</string>
+
+    <string name="shape_of_you">Shape Of You</string>
+    <string name="shape_of_you_time">03:55</string>
+    <string name="shape_of_you_description">Ed Sheeran, Shape Of You song</string>
+
+    <string name="galway_girl">Galway Girl</string>
+    <string name="galway_girl_time">03:19</string>
+    <string name="galway_girl_description">Ed Sheeran, Galway Girl song</string>
+
+    <string name="faster_car">Faster Car</string>
+    <string name="faster_car_time">03:48</string>
+    <string name="faster_car_description">Loving Caliber, Faster Car song</string>
+
+    <string name="let_it_be">Let It Be</string>
+    <string name="let_it_be_time">04:04</string>
+    <string name="let_it_be_description">The Beatles, Let It Be song</string>
+
+    <string name="here_comes_the_sun">Here Comes The Sun</string>
+    <string name="here_comes_the_sun_time">03:12</string>
+    <string name="here_comes_the_sun_description">The Beatles, Here Comes The Sun song</string>
+
+    <string name="castle_on_the_hill">Castle On The Hill</string>
+    <string name="castle_on_the_hill_time">04:20</string>
+    <string name="castle_on_the_hill_description">Ed Sheeran, Castle On The Hill song</string>
+
+    <string name="go_your_on_way">Go Your On Way</string>
+    <string name="go_your_on_way_time">03:07</string>
+    <string name="go_your_on_way_description">Cassie Graves and Sam Tsui, Go Your On Way song</string>
+
+    <string name="time_after_time">Time After Time</string>
+    <string name="time_after_time_time">03:41</string>
+    <string name="time_after_time_description">Cyndi Lauper, Time After Time song</string>
+
 </resources>
