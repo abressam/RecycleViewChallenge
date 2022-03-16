@@ -6,6 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="86dp">
 
+    <TextView
+        android:id="@+id/music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/music_time"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@+id/music_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507"
+        tools:text="Name" />
+
     <ImageView
         android:id="@+id/music_image"
         android:layout_width="48dp"
@@ -15,20 +27,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@tools:sample/avatars"
-        tools:ignore="ImageContrastCheck"
+        android:src="@drawable/bad_habits_image"
         android:contentDescription="@string/music_description" />
-
-    <TextView
-        android:id="@+id/music_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/music_image"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.507"
-        tools:text="Name" />
 
     <TextView
         android:id="@+id/music_time"
