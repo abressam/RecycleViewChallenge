@@ -34,8 +34,8 @@ class MusicViewHolder(
     ) : RecyclerView.ViewHolder(view) {
         fun bind (song: Music) {
             view.apply {
-                findViewById<TextView>(R.id.music_name).text = song.name
-                findViewById<TextView>(R.id.music_time).text = song.time
+                findViewById<TextView>(R.id.music_name).setText(song.name)
+                findViewById<TextView>(R.id.music_time).setText(song.time)
                 findViewById<ImageView>(R.id.music_image).setImageResource(song.image)
             }
         }
