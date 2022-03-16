@@ -9,6 +9,6 @@ class PlaylistViewModel : ViewModel () {
     val playlistInfo: LiveData<List<Music>> = _playlistInfo
 
     fun loadPlaylist () {
-       // _playlistInfo.value = MusicData().loadSongs() -> Fix later
+        _playlistInfo.value = MusicData().loadSongs()
     }
 }
