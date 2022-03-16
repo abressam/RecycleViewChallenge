@@ -1,11 +1,15 @@
 package com.example.dynamiclist
 
 import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 
 data class Music (
-    val name: String,
-    val time: String,
+    @StringRes
+    val name: Int,
+    @StringRes
+    val time: Int,
     @DrawableRes
     val image: Int,
-    val description: String
+    @StringRes
+    val description: Int
     )
